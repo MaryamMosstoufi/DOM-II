@@ -350,3 +350,90 @@ img {
   background: #FFFFFF;
   color: #17A2B8;
 }
+.hidden {
+  display: none;
+}
+.sticky-nav {
+  background: rgba(33, 37, 41, 0.9);
+  color: #FFFFFF;
+}
+.sticky-nav .nav-link {
+  color: #FFFFFF !important;
+}
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(33, 37, 41, 0.7);
+}
+.modal .content {
+  position: absolute;
+  top: 200px;
+  background-color: #FFFFFF;
+  text-align: center;
+  border: 2px solid #C0C0C0;
+  padding: 20px;
+  width: auto;
+  max-width: 95vw;
+}
+.modal .modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 18px;
+  color: #C0C0C0;
+  padding: 15px;
+  text-decoration: none;
+}
+.modal form input,
+.modal form button {
+  line-height: 2.5rem;
+  display: block;
+  margin: 20px auto;
+  min-width: 200px;
+  border: 2px solid #212529;
+  outline: none;
+  padding: 5px;
+}
+.modal form input {
+  border: 2px solid #C0C0C0;
+}
+.modal form button {
+  border: 2px solid #212529;
+  background-color: #212529;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.modal form button:hover {
+  background: #17A2B8;
+  border: 2px solid #17A2B8;
+}
+.modal .drag-drop {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.modal .drag-drop ul {
+  width: 150px;
+  list-style: none;
+  height: 120px;
+  min-height: 120px;
+  background-color: rgba(192, 192, 192, 0.3);
+  margin: 10px;
+}
+.modal .drag-drop ul li {
+  background: #C0C0C0;
+  margin: 5px;
+  line-height: 24px;
+  font-size: 14px;
+}
+.modal .drag-drop ul .list-header {
+  font-weight: 900;
+  background: none;
+}
